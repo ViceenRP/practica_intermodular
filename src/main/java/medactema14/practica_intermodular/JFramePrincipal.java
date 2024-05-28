@@ -311,6 +311,8 @@ public class JFramePrincipal extends javax.swing.JFrame {
                 fila++;
                 
             }
+         statement.close();
+            conexionbbdd.close();
          } catch (SQLException e){
             e.printStackTrace();
         }
